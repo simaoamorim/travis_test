@@ -1,4 +1,4 @@
 all: main
 
 main: main.c
-  $(CC) -o $@ $< $(CFLAGS)
+    $(CC) -o $@ $< $(CFLAGS)
