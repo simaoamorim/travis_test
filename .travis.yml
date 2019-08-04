@@ -1,5 +1,5 @@
 os: linux
 language: c
 dist: bionic
-script: make
+script: ./autogen.sh && mkdir build && cd build && ../configure && make
 cache: ccache
