@@ -6,5 +6,4 @@ else
 fi
 autoconf
 #autoheader
-automake
-
+automake --add-missing
