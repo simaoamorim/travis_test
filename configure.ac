@@ -2,7 +2,7 @@
 AC_INIT([travis_test], [0.0.1])
 
 # Check if source is present
-AC_CONFIG_SRCDIR([$(top_builddir)/src/main.c])
+AC_CONFIG_SRCDIR([src/main.c])
 
 # Folder for aux build tools
 AC_CONFIG_AUX_DIR([build-aux])
